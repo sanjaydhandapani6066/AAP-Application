@@ -1,0 +1,66 @@
+.port-logo{
+    font-size: 26px;
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    margin-right: auto;
+    font-weight: 900;
+    opacity: 0;
+    animation :slideRight 1s ease forwards;
+  }
+.vista-span{
+    color:#593421
+  }
+.navbar a.active::before{
+    content:'';
+    position:absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: rgb(0, 0, 0);
+    bottom: -6%;
+  }
+.navbar a{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    color:#000000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 35px;
+
+  }
+.navbar a:hover{
+    color:#593421;
+
+  }
+.navbar{
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+      
+      width:100%;
+      background-color:#ffc775;
+      align-items: center;
+      transition: .5s;
+    }
+    /* custom-navbar.css */
+
+.navbar.is-dark {
+    position:fixed;
+    display: flex;
+    top:0;  
+    left:0;
+    padding:20px 7%;
+    z-index:100;
+    background-color: #ffc775; /* Change the background color to dark */
+  }
+.navbar-item {
+    color: #000000;
+}
+.head-col{
+      color: #593421; 
+    }
+.head-col:hover {
+    background-color: #8c6e40;
+    color: white; /* Change background color on hover */
+}
