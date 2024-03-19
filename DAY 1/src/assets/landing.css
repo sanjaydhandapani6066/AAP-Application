@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.landing-content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url('./images/7109776.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position:70%;
+    width: 100%;
+    height: 100vh;
+}
+.land-head {
+    display: flex;
+    position: absolute;
+    margin-left: 0%;
+    margin-bottom: 33%;
+    font-size: 6rem;
+    color: #BA5131;
+    text-shadow:0 2px 5px rgba(0,0,0,.5);
+    
+}
+.land-head2{
+    color: #d0752f;
+}
+.land-proverb{
+    text-shadow:0 2px 5px rgba(0,0,0,.3);
+    color: #BA5131;
+    margin-left: 50%;
+    margin-bottom: 13%;
+    position: absolute;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+.land-para{
+    color: #BA5131;
+    margin-left: 53%;
+    margin-bottom: -4%;
+    position: absolute;
+    padding: 5%;
+    text-shadow:0 2px 5px rgba(0,0,0,.25);
+    font-weight: 500;
+    font-size: 1.24rem;
+
+}
+.land-button{
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #BA5131;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    font-size: 15px;
+    margin-bottom: 1%;
+    color: #fff;
+    margin-right: 21%;
+    border: 2px solid transparent;
+    letter-spacing: 1px;
+    transition: .5s ease;
+    text-decoration: none;
+    font-weight: 600;
+}
